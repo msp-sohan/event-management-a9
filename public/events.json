@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"photo": "https://i.ibb.co/n6C3gBm/wedding.jpg",
+		"title": "Elegant Wedding Coordination",
+		"description": "Weddings are one of the most important and joyous days in a person's life. It is a day when you celebrate your love for your partner and commit to spending the rest of your lives together.\n\nThere are many different aspects to planning a wedding, from choosing the perfect venue to selecting the right vendors. But one of the most important things to consider is the overall tone and atmosphere of your wedding.\n\nIf you are looking for a wedding that is both elegant and romantic, then a classic wedding theme is the perfect choice for you. Classic weddings are characterized by their timeless simplicity and elegance. The décor is often understated and features classic colors such as white, ivory, and champagne.",
+		"shortDescription": " Celebrate your love with an elegant and timeless wedding. Our classic weddings blend simplicity and sophistication, offering a range of themes from black and white to vintage and rustic. Create unforgettable memories in beautiful venues, with menus featuring classic dishes and music that sets the mood. Your dream wedding awaits!",
+		"price": "$1000 - $5000",
+		"location": "Various Locations",
+		"date": "Available year-round",
+		"duration": "1 day - 1 week"
+	},
+	{
+		"id": 2,
+		"photo": "https://i.ibb.co/PCqG1tS/birthday.jpg",
+		"title": "Creating Memorable Birthdays",
+		"description": "Host the perfect birthday party for yourself or a loved one. We provide everything you need for a fantastic celebration. Our team of party planners will work with you to create a personalized party experience that reflects your style and preferences. Whether you're planning a themed kids' birthday party or an elegant adult celebration, we have the creativity and resources to make it extraordinary.",
+		"shortDescription": "Host the perfect birthday bash, whether it's a themed kids' party or an elegant adult celebration. Our personalized planning services cover everything from venue selection to decorations, catering, and entertainment. Let us take care of the details, so you can focus on enjoying your special day.",
+		"price": "$200 - $500",
+		"location": "Your Preferred Venue",
+		"date": "Flexible",
+		"duration": "4 - 6 hours"
+	},
+	{
+		"id": 3,
+		"photo": "https://i.ibb.co/2FyxvkX/anniversaries.jpg",
+		"title": "Crafting Memorable Anniversaries",
+		"description": "Celebrate your love and commitment with a memorable anniversary party. We'll make it an unforgettable event. Our anniversary party planning services are designed to help you commemorate your journey together. Whether it's your first year together or a milestone anniversary, we'll create a beautiful and romantic atmosphere for you and your loved ones to enjoy.",
+		"shortDescription": "Celebrate your love and commitment with a romantic anniversary party. From your first year together to milestone anniversaries, we create beautiful and memorable atmospheres. Enjoy romantic dinners and grand celebrations, and let us handle venue selection, decor, catering, and entertainment.",
+		"price": "$300 - $800",
+		"location": "Various Locations",
+		"date": "Available year-round",
+		"duration": "4 - 8 hours"
+	},
+	{
+		"id": 4,
+		"photo": "https://i.ibb.co/NmSbXrS/engagement.jpg",
+		"title": "Engagement Elegance Services",
+		"description": "Announce your engagement in style with our engagement party planning services. Let's celebrate this special moment together. Your engagement is a significant milestone, and we're here to help you share the joy with your family and friends. Our engagement party planning includes selecting a beautiful venue, creating a delightful menu, and planning entertainment that reflects your love story.",
+		"shortDescription": " Announce your engagement in style with our planning services. Share the joy with family and friends in a beautiful venue, with delightful menus and entertainment that reflects your love story. We make sure it's a memorable celebration of your journey to a lifetime of happiness together.",
+		"price": "$250 - $600",
+		"location": "Your Preferred Venue",
+		"date": "Flexible",
+		"duration": "4 - 6 hours"
+	},
+	{
+		"id": 5,
+		"photo": "https://i.ibb.co/bQpCX9d/retirement.jpg",
+		"title": "Retirement Extravaganza",
+		"description": "Celebrate the end of your career and the beginning of a new chapter in your life. We'll plan a memorable retirement party for you. Retirement is a significant life event, and it deserves a special celebration. Our retirement party planning services are designed to honor your achievements and mark the transition to a new phase of life. Whether you want an elegant dinner or a fun and casual gathering, we can create the perfect retirement party for you.",
+		"shortDescription": " Honor your achievements and embrace the future with a memorable retirement party. Whether you prefer an elegant dinner or a casual gathering, we create the perfect retirement celebration. We handle everything, from venue selection to decorations, so you can relax and enjoy your special day.",
+		"price": "$400 - $1000",
+		"location": "Various Locations",
+		"date": "Available year-round",
+		"duration": "4 - 8 hours"
+	},
+	{
+		"id": 6,
+		"photo": "https://i.ibb.co/1QxnXWV/baby-shower.jpg",
+		"title": "Showering Baby with Love",
+		"description": "Welcome the upcoming arrival of your baby with a joyous baby shower. We'll help you plan the perfect celebration. A baby shower is a heartwarming event that celebrates the anticipation of a new addition to your family. Our baby shower planning services focus on creating a delightful and memorable experience for you and your guests. Whether you prefer a traditional baby shower or a creative theme, we'll make it unforgettable.",
+		"shortDescription": "Welcome your baby's arrival with a joyous baby shower planned just for you. We create delightful and memorable experiences, whether you prefer a traditional baby shower or a creative theme. Let us take care of venue selection, decorations, games, and catering while you cherish this special time with loved ones.",
+		"price": "$150 - $400",
+		"location": "Your Preferred Venue",
+		"date": "Flexible",
+		"duration": "3 - 5 hours"
+	}
+]

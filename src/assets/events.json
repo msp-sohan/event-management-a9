@@ -1,0 +1,68 @@
+[
+	{
+		"id": 1,
+		"photo": "https://i.ibb.co/CwvPz9f/food-2.jpg",
+		"title": "Weddings",
+		"description": "Celebrate your special day with us. We offer a range of wedding planning services to make your wedding unforgettable. From selecting the perfect venue to choosing the finest caterers, we ensure that every detail of your wedding is carefully planned and executed. Our team of experienced wedding planners will work closely with you to bring your vision to life. Whether you dream of a grand, lavish wedding or an intimate ceremony, we have the expertise to make it happen. We understand that your wedding day is one of the most important days of your life, and we are dedicated to making it truly magical. Contact us today to start planning your dream wedding.",
+		"shortDescription": "Plan your dream wedding with us. From venue selection to catering, we'll make every detail perfect.",
+		"price": "$1000 - $5000",
+		"location": "Various Locations",
+		"date": "Available year-round",
+		"duration": "1 day - 1 week"
+	},
+	{
+		"id": 2,
+		"photo": "https://i.ibb.co/FmHySkB/Rectangle-4281.jpg",
+		"title": "Birthday Parties",
+		"description": "Host the perfect birthday party for yourself or a loved one. We provide everything you need for a fantastic celebration. Our team of party planners will work with you to create a personalized party experience that reflects your style and preferences. Whether you're planning a themed kids' birthday party or an elegant adult celebration, we have the creativity and resources to make it extraordinary. From venue selection to decorations, catering, entertainment, and more, we've got you covered. Let us take the stress out of party planning so you can focus on enjoying the special day. Contact us today to start planning your unforgettable birthday party.",
+		"shortDescription": "Host memorable birthday parties with our personalized planning services.",
+		"price": "$200 - $500",
+		"location": "Your Preferred Venue",
+		"date": "Flexible",
+		"duration": "4 - 6 hours"
+	},
+	{
+		"id": 3,
+		"photo": "https://i.ibb.co/VmNmmdj/rectangle-3.jpg",
+		"title": "Anniversaries",
+		"description": "Celebrate your love and commitment with a memorable anniversary party. We'll make it an unforgettable event. Our anniversary party planning services are designed to help you commemorate your journey together. Whether it's your first year together or a milestone anniversary, we'll create a beautiful and romantic atmosphere for you and your loved ones to enjoy. From romantic dinners to grand celebrations, we can tailor our services to your preferences. Let us handle the details, including venue selection, decor, catering, and entertainment, so you can focus on cherishing your time together. Contact us today to plan the perfect anniversary celebration.",
+		"shortDescription": "Celebrate love and commitment with a romantic anniversary party.",
+		"price": "$300 - $800",
+		"location": "Various Locations",
+		"date": "Available year-round",
+		"duration": "4 - 8 hours"
+	},
+	{
+		"id": 4,
+		"photo": "https://i.ibb.co/3c4zmMk/rectangle-4.jpg",
+		"title": "Engagement Parties",
+		"description": "Announce your engagement in style with our engagement party planning services. Let's celebrate this special moment together. Your engagement is a significant milestone, and we're here to help you share the joy with your family and friends. Our engagement party planning includes selecting a beautiful venue, creating a delightful menu, and planning entertainment that reflects your love story. Whether you prefer an intimate gathering or a lively celebration, we'll make sure it's memorable. Contact us today to start planning your engagement party and begin your journey to a lifetime of happiness together.",
+		"shortDescription": "Announce your engagement with style and celebrate with us.",
+		"price": "$250 - $600",
+		"location": "Your Preferred Venue",
+		"date": "Flexible",
+		"duration": "4 - 6 hours"
+	},
+	{
+		"id": 5,
+		"photo": "https://i.ibb.co/VSPsG0F/Health-2.jpg",
+		"title": "Retirement Parties",
+		"description": "Celebrate the end of your career and the beginning of a new chapter in your life. We'll plan a memorable retirement party for you. Retirement is a significant life event, and it deserves a special celebration. Our retirement party planning services are designed to honor your achievements and mark the transition to a new phase of life. Whether you want an elegant dinner or a fun and casual gathering, we can create the perfect retirement party for you. We'll take care of everything, from venue selection to decorations, so you can relax and enjoy your special day. Contact us today to plan your retirement party and embrace the future with enthusiasm.",
+		"shortDescription": "Celebrate your retirement and achievements with our planning services.",
+		"price": "$400 - $1000",
+		"location": "Various Locations",
+		"date": "Available year-round",
+		"duration": "4 - 8 hours"
+	},
+	{
+		"id": 6,
+		"photo": "https://i.ibb.co/Sc5rf0S/Health-3.png",
+		"title": "Baby Shower",
+		"description": "Welcome the upcoming arrival of your baby with a joyous baby shower. We'll help you plan the perfect celebration. A baby shower is a heartwarming event that celebrates the anticipation of a new addition to your family. Our baby shower planning services focus on creating a delightful and memorable experience for you and your guests. Whether you prefer a traditional baby shower or a creative theme, we'll make it unforgettable. We handle all the details, including venue selection, decorations, games, and catering. Let us take care of the planning so you can cherish this special time with your loved ones. Contact us today to plan your baby shower.",
+		"shortDescription": "Celebrate your baby's arrival with a joyous baby shower planned just for you.",
+		"price": "$150 - $400",
+		"location": "Your Preferred Venue",
+		"date": "Flexible",
+		"duration": "3 - 5 hours"
+	}
+]

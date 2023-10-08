@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"image": "https://i.ibb.co/wsHgqc5/img2.jpg",
+		"name": "John Doe",
+		"designation": "Happy Customer",
+		"message": "EventWonders made our wedding day truly magical. The attention to detail and professionalism were exceptional. Thank you for creating unforgettable memories!"
+	},
+	{
+		"id": 2,
+		"image": "https://i.ibb.co/HDnnNtN/img3.jpg",
+		"name": "Jane Smith",
+		"designation": "Satisfied Client",
+		"message": "EventWonders exceeded our expectations with their birthday party planning. Everything was perfect, and the kids had a blast. Highly recommended!"
+	},
+	{
+		"id": 3,
+		"image": "https://i.ibb.co/V9B3092/img4.jpg",
+		"name": "David Brown",
+		"designation": "Happy Anniversary Couple",
+		"message": "Our anniversary celebration was a dream come true, thanks to EventWonders. The romantic ambiance and flawless execution were remarkable."
+	},
+	{
+		"id": 4,
+		"image": "https://i.ibb.co/7tzWM1x/img1.jpg",
+		"name": "Emily White",
+		"designation": "Engagement Party Host",
+		"message": "EventWonders helped us kickstart our journey to happiness with a stunning engagement party. It was an unforgettable experience for us and our guests."
+	},
+	{
+		"id": 5,
+		"image": "https://i.ibb.co/bbdqTWL/img5.jpg",
+		"name": "Michael Green",
+		"designation": "Retired Professional",
+		"message": "The retirement party organized by EventWonders marked the beginning of my new life chapter with joy and gratitude. It was a perfect send-off!"
+	},
+	{
+		"id": 6,
+		"image": "https://i.ibb.co/RYcyqzK/img6.jpg",
+		"name": "Sarah Adams",
+		"designation": "Expectant Parent",
+		"message": "EventWonders made our baby shower a heartwarming celebration. Their creativity and attention to detail made it an event to remember."
+	},
+	{
+		"id": 7,
+		"image": "https://i.ibb.co/dWCDDG7/img8.jpg",
+		"name": "Robert Johnson",
+		"designation": "Satisfied Customer",
+		"message": "EventWonders made our corporate event a resounding success. Their professionalism and creative touch were outstanding."
+	},
+	{
+		"id": 8,
+		"image": "https://i.ibb.co/yf3f1Hj/img7.jpg",
+		"name": "Ella Davis",
+		"designation": "Happy Birthday Celebrant",
+		"message": "My birthday party organized by EventWonders was incredible. They turned my vision into reality and made it an unforgettable day."
+	},
+	{
+		"id": 9,
+		"image": "https://i.ibb.co/KV49W7G/img9.jpg",
+		"name": "William Turner",
+		"designation": "Anniversary Couple",
+		"message": "EventWonders helped us celebrate our love in style. The anniversary party was elegant, and we couldn't be happier."
+	}
+]
