@@ -120,27 +120,9 @@ const Contact = () => {
                               </svg>
                            </span>
                            <span className="absolute -left-7 -bottom-7 z-[-1]">
-                              <svg
-                                 width={107}
-                                 height={134}
-                                 viewBox="0 0 107 134"
-                                 fill="none"
-                                 xmlns="http://www.w3.org/2000/svg"
-                              >
-                                 <circle
-                                    cx="104.999"
-                                    cy={132}
-                                    r="1.66667"
-                                    transform="rotate(180 104.999 132)"
-                                    fill="#13C296"
-                                 />
-                                 <circle
-                                    cx="104.999"
-                                    cy="117.333"
-                                    r="1.66667"
-                                    transform="rotate(180 104.999 117.333)"
-                                    fill="#13C296"
-                                 />
+                              <svg width={107} height={134} viewBox="0 0 107 134" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                                 <circle cx="104.999" cy={132} r="1.66667" transform="rotate(180 104.999 132)" fill="#13C296" />
+                                 <circle cx="104.999" cy="117.333" r="1.66667" transform="rotate(180 104.999 117.333)" fill="#13C296" />
                                  <circle
                                     cx="104.999"
                                     cy="102.667"
