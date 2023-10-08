@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "./SocialLogin";
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
@@ -7,6 +7,8 @@ import toast from "react-hot-toast";
 const Login = () => {
    const { signIn } = useContext(AuthContext)
    const navigate = useNavigate()
+   const location = useLocation()
+   console.log(location)
 
    const hangleLogin = (e) =>{
       e.preventDefault();
@@ -17,8 +19,8 @@ const Login = () => {
       signIn(email, password)
       .then(result=>{
          if (result.user) {
+            navigate(location?.state ? location.state : "/")
             toast.success('Successfully Login')
-            navigate("/")
          }
       })
       .catch(error=>{

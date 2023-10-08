@@ -8,8 +8,8 @@ import Home from './pages/Home/Home'
 import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import AuthProvider from './Provider/AuthProvider'
-import Services from './component/services/Services'
 import ServiceDetails from './component/services/ServiceDetails'
+import PrivetRoute from './route/PrivetRoute'
 
 const router = createBrowserRouter([
   {
@@ -30,13 +30,9 @@ const router = createBrowserRouter([
         element: <Register></Register>
       },
       {
-        path: "/service",
-        element: <Services></Services>
-      },
-      {
         path: "/service/:id",
-        element: <ServiceDetails></ServiceDetails>,
-        loader: ()=> fetch("../public/events.json")
+        element: <PrivetRoute><ServiceDetails></ServiceDetails></PrivetRoute>,
+        loader: () => fetch("https://pvzsohan.github.io/eventapi/event.json")
       }
     ]
   }
