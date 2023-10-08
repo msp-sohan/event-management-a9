@@ -10,6 +10,8 @@ import Register from './pages/Register/Register'
 import AuthProvider from './Provider/AuthProvider'
 import ServiceDetails from './component/services/ServiceDetails'
 import PrivetRoute from './route/PrivetRoute'
+import AboutPage from './pages/AboutPage/AboutPage'
+import Contact from './pages/Contact/Contact'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
+      },
+      {
+        path: "/about",
+        element: <AboutPage></AboutPage>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
         path: "/service/:id",

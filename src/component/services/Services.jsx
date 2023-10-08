@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Services = () => {
    const [events, setEvents] = useState([])
    useEffect(()=>{
-      fetch("../../public/events.json")
+      fetch("https://pvzsohan.github.io/eventapi/event.json")
       .then(res=>res.json())
       .then(data => setEvents(data))
    },[])

@@ -18,7 +18,7 @@ const Testimonials = () => {
    const [testimonials, setTestimonials] = useState([]);
 
    useEffect(() => {
-      fetch("../../../public/testimonial.json")
+      fetch("https://pvzsohan.github.io/eventapi/testimonial.json")
          .then(res => res.json())
          .then(data => setTestimonials(data))
    }, []);

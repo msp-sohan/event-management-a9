@@ -38,6 +38,9 @@ const Navber = () => {
       <NavLink onClick={() => { setMenu(false) }} to="/about" className={({ isActive, isPending }) =>
          isPending ? "pending" : isActive ? "active hover:border-b-2 border-b-[#FFE17B]  text-[#FFE17B] text-xl  mx-3 rounded-none font-semibold border-b-2" : "hover:border-b-2 border-b-red-500  text-white text-xl  mx-3 rounded-none "}>About Us
       </NavLink>
+      <NavLink onClick={() => { setMenu(false) }} to="/contact" className={({ isActive, isPending }) =>
+         isPending ? "pending" : isActive ? "active hover:border-b-2 border-b-[#FFE17B]  text-[#FFE17B] text-xl  mx-3 rounded-none font-semibold border-b-2" : "hover:border-b-2 border-b-red-500  text-white text-xl  mx-3 rounded-none "}>Contact Us
+      </NavLink>
       {/* <NavLink to="/login" className={({ isActive, isPending }) =>
          isPending ? "pending" : isActive ? "active hover:border-b-2 border-b-red-500  text-red-500 text-xl  mx-3 rounded-none font-semibold border-b-2" : "hover:border-b-2 border-b-red-500  text-white text-xl  mx-3 rounded-none "}>Login
       </NavLink> */}
@@ -48,7 +51,7 @@ const Navber = () => {
    </>
 
    return (
-      <div className=" absolute left-0 right-0 z-50 bg-opacity-50 w-full bg-[#0a4275]">
+      <div className="left-0 right-0 z-50 bg-opacity-50 w-full bg-[#0a4275] fixed">
          <div className="navbar bg-opacity-20 container mx-auto">
             <div className="navbar-start">
                {/* Dropdown Menu */}
