@@ -1,21 +1,14 @@
 import { Link } from "react-router-dom";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
 
-// eslint-disable-next-line react/prop-types
-const Service = ({ event }) => {
-   const { id, photo, price, title, shortDescription } = event || {};
 
-   useEffect(() => {
-      AOS.init({ duration: 2000 })
-   }, [])
+const OurService = ({service}) => {
+   const { id, photo, price, title, shortDescription } = service || {};
 
    return (
-      <div className="flex flex-col h-full">
-         <div data-aos="fade-up" className="px-0 relative mt-6 pb-8 flex-shrink-0 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
-            <div>
-               <img className="rounded-t-lg w-full h-[35vh]" src={photo} alt="EventWonders" />
+      <div className="flex flex-col h-full hover:drop-shadow-xl">
+         <div className="px-0 relative mt-6 pb-8 flex-shrink-0 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+            <div className="relative flex justify-center items-center opacity-60 hover:opacity-100">
+               <img className="rounded-t-lg w-full h-[35vh] hover:from-secondary-focus" src={photo} alt="EventWonders" />
             </div>
             <div className="p-3 flex-grow">
                <p>Price: <span className="font-semibold text-blue-900">{price}</span></p>
@@ -27,7 +20,7 @@ const Service = ({ event }) => {
                </p>
                <div className="absolute bottom-3">
                   <button className="btn-ghost bg-[#0a4275] text-white hover:text-black py-1 px-2 rounded font-semibold text-lg text-justify">
-                     <Link to={`./service/${id}`}>Show Details</Link>
+                     <Link to={`./${id}`}>Show Details</Link>
                   </button>
                </div>
             </div>
@@ -36,4 +29,4 @@ const Service = ({ event }) => {
    );
 };
 
-export default Service;
+export default OurService;

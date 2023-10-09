@@ -12,6 +12,7 @@ import ServiceDetails from './component/services/ServiceDetails'
 import PrivetRoute from './route/PrivetRoute'
 import AboutPage from './pages/AboutPage/AboutPage'
 import Contact from './pages/Contact/Contact'
+import OurServices from './pages/Service/OurServices'
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact></Contact>
+        element: <PrivetRoute><Contact></Contact></PrivetRoute>
+      },
+      {
+        path: "/service",
+        element: <PrivetRoute><OurServices></OurServices></PrivetRoute>,
+        loader: () => fetch("https://pvzsohan.github.io/eventapi/event.json")
       },
       {
         path: "/service/:id",

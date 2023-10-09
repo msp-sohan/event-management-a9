@@ -7,15 +7,15 @@ const Footer = () => {
             <div className="py-5 px-10">
                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
                   <div className="lg:col-span-2">
-                     <Link href='/'><img src="https://i.ibb.co/9sSKD7j/Event-Wonder.png" alt="logo"
+                     <Link to='/'><img src="https://i.ibb.co/9sSKD7j/Event-Wonder.png" alt="logo"
                         className='w-56 h-16 mb-3' /></Link>
                      <p className="text-gray-300 text-sm">EventWonders: Your one-stop destination for unforgettable events. From weddings to birthdays, we create magical moments that last a lifetime. Join us in celebrating lifes milestones!</p>
                   </div>
                   <div>
                      <h4 className="text-lg font-semibold mb-4 text-white">Navigation</h4>
                      <ul className="space-y-2">
-                        <li><a href="/" className="text-gray-300 hover:text-white text-sm">Home</a></li>
-                        <li><a href="/#" className="text-gray-300 hover:text-white text-sm">Services</a></li>
+                        <li><Link to="/" className="text-gray-300 hover:text-white text-sm">Home</Link></li>
+                        <li><Link to="/service" className="text-gray-300 hover:text-white text-sm">Services</Link></li>
                         <li><Link to="/about" className="text-gray-300 hover:text-white text-sm">About</Link></li>
                         <li><Link to="/contact" className="text-gray-300 hover:text-white text-sm">Contact</Link></li>
                      </ul>

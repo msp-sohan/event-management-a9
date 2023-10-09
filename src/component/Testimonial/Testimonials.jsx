@@ -60,7 +60,7 @@ const Testimonials = ({testimonials}) => {
                      <h2 className="text-xl font-semibold pt-5">{testimonial.name}</h2>
                      <p className="text-[16px]">{testimonial.designation}</p>
                      <hr className="my-4" />
-                     <p className="text-justify"><q> {testimonial.message}</q></p>
+                     <p className=""><q> {testimonial.message}</q></p>
                   </div>
                </SwiperSlide>)
             }
