@@ -22,7 +22,7 @@ const SocialLogin = () => {
       })
    }
    return (
-      <div>
+      <div className="p-5">
          <ul className="-mx-2 mb-8 flex justify-between">
             <li className="w-full px-2">
                <button onClick={handleGoogleLogin} className="flex w-full h-10 items-center justify-center rounded-md bg-[#D64937] hover:bg-opacity-90" >

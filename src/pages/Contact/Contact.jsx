@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 
 
 const Contact = () => {
    return (
       <>
-         <section className="bg-white py-20 lg:py-[128px] overflow-hidden relative z-10">
+         <section className="bg-white py-20 px-5 lg:py-[128px] overflow-hidden relative z-10">
             <div className="container mx-auto">
                <div className="flex flex-wrap -mx-4 lg:justify-between">
                   <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -134,8 +135,7 @@ const Contact = () => {
                                  <circle cx="90.3333" cy={132} r="1.66667" transform="rotate(180 90.3333 132)" fill="#13C296" />
                                  <circle cx="90.3333" cy="117.333" r="1.66667" transform="rotate(180 90.3333 117.333)" fill="#13C296" />
                                  <circle cx="90.3333" cy="102.667" r="1.66667" transform="rotate(180 90.3333 102.667)" fill="#13C296" />
-                                 <circle cx="90.3333" cy={88} r="1.66667" transform="rotate(180 90.3333 88)" fill="#13C296"
-                                 />
+                                 <circle cx="90.3333" cy={88} r="1.66667" transform="rotate(180 90.3333 88)" fill="#13C296"/>
                                  <circle cx="90.3333" cy="73.3333" r="1.66667" transform="rotate(180 90.3333 73.3333)" fill="#13C296" />
                                  <circle cx="90.3333" cy={45} r="1.66667" transform="rotate(180 90.3333 45)" fill="#13C296" />
                                  <circle cx="90.3333" cy={16} r="1.66667" transform="rotate(180 90.3333 16)" fill="#13C296" />

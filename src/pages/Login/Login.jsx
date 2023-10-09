@@ -34,8 +34,8 @@ const Login = () => {
       <div>
          <section className="bg-[#F4F7FF] py-16 lg:pt-[112px]">
             <div className="container mx-auto">
-               <div className="-mx-4 flex flex-wrap">
-                  <div className="w-full px-4">
+               <div className="flex flex-wrap">
+                  <div className="w-full">
                      <div className="relative mx-auto max-w-[525px] overflow-hidden rounded-lg bg-white py-16 px-10 text-center sm:px-12 md:px-[60px]">
                         <div className="mb-10 text-center md:mb-10">
                            <a href="/" className="mx-auto inline-block">

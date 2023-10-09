@@ -13,11 +13,11 @@ const Service = ({ event }) => {
 
    return (
       <div className="flex flex-col h-full">
-         <div data-aos="fade-up" className="mx-3 relative mt-6 pb-8 flex-shrink-0 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+         <div data-aos="fade-up" className="px-0 relative mt-6 pb-8 flex-shrink-0 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
             <a href="#!">
-               <img className="rounded-t-lg w-full h-[35vh]" src={photo} alt="Hollywood Sign on The Hill" />
+               <img className="rounded-t-lg w-full h-[35vh]" src={photo} alt="EventWonders" />
             </a>
-            <div className="p-6 flex-grow">
+            <div className="p-3 flex-grow">
                <h5 className="mb-3 text-2xl font-semibold leading-tight text-neutral-800 dark:text-neutral-50">
                   {title}
                </h5>
@@ -25,7 +25,7 @@ const Service = ({ event }) => {
                   {shortDescription}
                </p>
                <div className="absolute bottom-3">
-                  <button className="btn-ghost bg-[#0a4275] text-white hover:text-black p-2 rounded font-semibold text-lg">
+                  <button className="btn-ghost bg-[#0a4275] text-white hover:text-black p-0 rounded font-semibold text-lg text-justify">
                      <Link to={`./service/${id}`}>Show Details</Link>
                   </button>
                </div>

@@ -4,7 +4,6 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import userPic from "../../assets/user.png"
 import { MdOutlineLogout } from 'react-icons/md';
 import { FaUserTie } from 'react-icons/fa';
-import { AiOutlineClose } from 'react-icons/ai';
 import toast from "react-hot-toast";
 
 
@@ -51,17 +50,17 @@ const Navber = () => {
    </>
 
    return (
-      <div className="left-0 right-0 z-50 bg-opacity-50 w-full bg-[#0a4275] fixed">
+      <div className="left-0 right-0 z-50 bg-opacity-50 w-full bg-[#0a4275] absolute">
          <div className="navbar bg-opacity-20 container mx-auto">
             <div className="navbar-start">
                {/* Dropdown Menu */}
                <div className="dropdown">
                   <label onClick={() => setMenu(!menu)} tabIndex={0} className="btn btn-ghost lg:hidden">
-                     {
-                        menu ? <AiOutlineClose className="text-2xl font-bold"></AiOutlineClose> : <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 font-semibold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 font-semibold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
-                     }
+
                   </label>
                   {
                      menu && <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#0a4275] rounded-box bg-opacity-50 w-52">
@@ -71,7 +70,7 @@ const Navber = () => {
                </div>
 
                <Link to="/" className="btn btn-ghost normal-case text-white text-xl ">
-                  <img className="w-48 " src="https://i.ibb.co/9sSKD7j/Event-Wonder.png" alt="" />
+                  <img className="max-w-[150px] " src="https://i.ibb.co/9sSKD7j/Event-Wonder.png" alt="" />
                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">

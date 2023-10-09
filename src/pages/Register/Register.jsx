@@ -70,15 +70,15 @@ const Register = () => {
       <div>
          <section className="bg-[#F4F7FF] py-16 lg:pt-[100px]">
             <div className="container mx-auto">
-               <div className="-mx-4 flex flex-wrap">
-                  <div className="w-full px-4">
-                     <div className="relative mx-auto max-w-[525px] overflow-hidden rounded-lg bg-white py-7 px-10 text-center sm:px-12 md:px-[60px]">
+               <div className="sm-mx-0 lg:-mx-4 flex flex-wrap">
+                  <div className="w-full p-0 md:px-4">
+                     <div className="relative mx-auto max-w-[525px] overflow-hidden rounded-lg bg-white py-7 px-0 lg:px-10 text-center sm:px-12 md:px-[60px]">
                         <div className="mb-10 text-center md:mb-[33px]">
                            <a href="/" className="mx-auto inline-block">
                               <img className="w-56" src="https://i.ibb.co/n1ksR0n/Event-Wonder2.png" alt="logo" />
                            </a>
                         </div>
-                        <form onSubmit={handleRegister}>
+                        <form onSubmit={handleRegister} className="p-5">
                            <div className="mb-5">
                               <input type="text" placeholder="Full Name" name="name" className="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none focus:border-primary focus-visible:shadow-none" required/>
                            </div>

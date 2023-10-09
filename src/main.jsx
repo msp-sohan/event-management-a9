@@ -22,6 +22,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+        loader: () => fetch("https://pvzsohan.github.io/eventapi/testimonial.json")
       },
       {
         path: "/login",
