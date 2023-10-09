@@ -8,13 +8,11 @@ const Login = () => {
    const { signIn } = useContext(AuthContext)
    const navigate = useNavigate()
    const location = useLocation()
-   console.log(location)
 
    const hangleLogin = (e) =>{
       e.preventDefault();
       const email = e.target.email.value;
       const password = e.target.password.value;
-      console.log(email, password)
 
       signIn(email, password)
       .then(result=>{
@@ -26,8 +24,7 @@ const Login = () => {
       .catch(error=>{
          if (error.message) {
             toast.error("Email and password do not match.")
-         }
-         
+         }  
       })
    }
    return (

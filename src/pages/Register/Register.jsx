@@ -17,7 +17,6 @@ const Register = () => {
       const image = e.target.image.value;
       const email = e.target.email.value;
       const password = e.target.password.value;
-      console.log(name,image, email, password)
 
       const lengthError = /^.{6,}$/;
       const spError = /[!@#$%^&*()_+{}[\]:;<>,.?~\\/-]/;

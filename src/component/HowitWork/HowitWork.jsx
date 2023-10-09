@@ -3,9 +3,11 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 const HowitWork = () => {
+   
    useEffect(() => {
       AOS.init({ duration: 2000 })
    }, [])
+
    return (
       <div data-aos="fade-up" className="mb-20">
          <div className="container mx-auto text-center px-5">

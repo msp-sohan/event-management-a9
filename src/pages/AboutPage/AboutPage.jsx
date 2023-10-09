@@ -2,6 +2,7 @@ import Footer from "../../component/Footer/Footer";
 
 
 const AboutPage = () => {
+   
    return (
       <div className="bg-white">
          <div>

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 const OurService = ({service}) => {
    const { id, photo, price, title, shortDescription } = service || {};
 

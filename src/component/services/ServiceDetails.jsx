@@ -1,19 +1,12 @@
-
 import { useLoaderData, useParams } from "react-router-dom";
 import Footer from "../Footer/Footer";
 
-
 const ServiceDetails = () => {
-const events = useLoaderData()
-console.log(events)
-
-
+   const events = useLoaderData()
 
    const {id} = useParams()
 
    const single = events.find(event=>event.id === parseInt(id))
-   console.log(single)
-
 
    return (
       <div className="bg-white">

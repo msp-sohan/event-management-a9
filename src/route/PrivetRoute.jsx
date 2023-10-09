@@ -8,7 +8,7 @@ import { RotatingLines } from 'react-loader-spinner'
 const PrivetRoute = ({children}) => {
    const { user, loading } = useContext(AuthContext)
    const location = useLocation();
-   console.log(location)
+   
    if (loading) {
       return (
          <div className="flex justify-center items-center h-screen">
