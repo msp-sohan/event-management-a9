@@ -65,7 +65,7 @@ const Login = () => {
                         </a>
                         <p className="text-base text-[#adadad]">
                            <span className="pr-0.5">Not a member yet?</span>
-                           <Link to="/register" className="text-primary hover:underline">
+                           <Link  to="/register" className="text-primary hover:underline">
                               Sign Up
                            </Link>
                         </p>

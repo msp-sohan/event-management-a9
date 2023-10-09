@@ -25,7 +25,7 @@ const Service = ({ event }) => {
                   {shortDescription}
                </p>
                <div className="absolute bottom-3">
-                  <button className="btn-ghost bg-[#0a4275] text-white hover:text-black p-0 rounded font-semibold text-lg text-justify">
+                  <button className="btn-ghost bg-[#0a4275] text-white hover:text-black py-1 px-2 rounded font-semibold text-lg text-justify">
                      <Link to={`./service/${id}`}>Show Details</Link>
                   </button>
                </div>

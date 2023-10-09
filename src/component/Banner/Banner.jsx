@@ -31,12 +31,12 @@ const Banner = () => {
                modules={[Autoplay, Pagination, Navigation]}
                className="mySwiper"
             >
-               <SwiperSlide className="relative"><img src="https://i.ibb.co/n6C3gBm/wedding.jpg" alt="" /><p className="absolute bottom-10 text-3xl bg-[#0a4275] text-white font-semibold rounded bg-opacity-50 tracking-widest">Wedding Event Management</p></SwiperSlide>
-               <SwiperSlide className="relative"><img src="https://i.ibb.co/PCqG1tS/birthday.jpg" alt="" /><p className="absolute bottom-10 text-3xl bg-[#0a4275] text-white font-semibold rounded bg-opacity-50 tracking-widest">Creating Memorable Birthdays</p></SwiperSlide>
-               <SwiperSlide className="relative"><img src="https://i.ibb.co/2FyxvkX/anniversaries.jpg" alt="" /><p className="absolute bottom-10 text-3xl bg-[#0a4275] text-white font-semibold rounded bg-opacity-50 tracking-widest">Crafting Memorable Anniversaries</p></SwiperSlide>
-               <SwiperSlide className="relative"><img src="https://i.ibb.co/NmSbXrS/engagement.jpg" alt="" /><p className="absolute bottom-10 text-3xl bg-[#0a4275] text-white font-semibold rounded bg-opacity-50 tracking-widest">Engagement Elegance Services</p></SwiperSlide>
-               <SwiperSlide className="relative"><img src="https://i.ibb.co/bQpCX9d/retirement.jpg" alt="" /><p className="absolute bottom-10 text-3xl bg-[#0a4275] text-white font-semibold rounded bg-opacity-50 tracking-widest">Retirement Extravaganza</p></SwiperSlide>
-               <SwiperSlide className="relative"><img src="https://i.ibb.co/1QxnXWV/baby-shower.jpg" alt="" /><p className="absolute bottom-10 text-3xl bg-[#0a4275] text-white font-semibold rounded bg-opacity-50 tracking-widest">Showering Baby with Love</p></SwiperSlide>
+               <SwiperSlide className="relative"><img src="https://i.ibb.co/n6C3gBm/wedding.jpg" alt="" /><p className="absolute bottom-20 text-2xl lg:text-3xl bg-[#0a4275] text-white p-1 xl:p-2 font-semibold rounded bg-opacity-50 tracking-normal lg:tracking-widest">Wedding Event Management</p></SwiperSlide>
+               <SwiperSlide className="relative"><img src="https://i.ibb.co/PCqG1tS/birthday.jpg" alt="" /><p className="absolute bottom-20 text-2xl lg:text-3xl bg-[#0a4275] text-white p-1 xl:p-2 font-semibold rounded bg-opacity-50 tracking-normal lg:tracking-widest">Creating Memorable Birthdays</p></SwiperSlide>
+               <SwiperSlide className="relative"><img src="https://i.ibb.co/2FyxvkX/anniversaries.jpg" alt="" /><p className="absolute bottom-20 text-2xl lg:text-3xl bg-[#0a4275] text-white p-1 xl:p-2 font-semibold rounded bg-opacity-50 tracking-normal lg:tracking-widest">Crafting Memorable Anniversaries</p></SwiperSlide>
+               <SwiperSlide className="relative"><img src="https://i.ibb.co/NmSbXrS/engagement.jpg" alt="" /><p className="absolute bottom-20 text-2xl lg:text-3xl bg-[#0a4275] text-white p-1 xl:p-2 font-semibold rounded bg-opacity-50 tracking-normal lg:tracking-widest">Engagement Elegance Services</p></SwiperSlide>
+               <SwiperSlide className="relative"><img src="https://i.ibb.co/bQpCX9d/retirement.jpg" alt="" /><p className="absolute bottom-20 text-2xl lg:text-3xl bg-[#0a4275] text-white p-1 xl:p-2 font-semibold rounded bg-opacity-50 tracking-normal lg:tracking-widest">Retirement Extravaganza</p></SwiperSlide>
+               <SwiperSlide className="relative"><img src="https://i.ibb.co/1QxnXWV/baby-shower.jpg" alt="" /><p className="absolute bottom-20 text-2xl lg:text-3xl bg-[#0a4275] text-white p-1 xl:p-2 font-semibold rounded bg-opacity-50 tracking-normal lg:tracking-widest">Showering Baby with Love</p></SwiperSlide>
             </Swiper>
          </div>
       </>

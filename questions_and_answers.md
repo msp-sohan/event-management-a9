@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>javascript is case sensetive. therefore we decleard a variable greeting but dont set a value, then declear "greetign" with the value of empty  object, but dont in a variable. so  this will initially set on global object. so it dont give error and result is {}</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>sum function is called with two parameter. and function return sum of two parameter. but when is function called two paramete of One is number and other one is string so it can be sum, it will concatinating show the result will be string value.</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>There declear a array name food with 4 element. bellow the array also declaring a object name info where favorite food propery get the 0 index element of food array. in this below favorite food property set a new value. but it will not changed the original food array. it will only update the info object favorite food property. so currect answer id A. </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Here is sayHi is callback function and it will receive a parametter. and then return with "Hi there". but whhen call the function not provide a paramiter. so that the function dont get parameter and return the value undefine.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>when used forEach method on nums array it give the all signgle element on num variable. then check if (num) num is true sum 1 with the intial value of count variable. by the way first element of the array is 0. which is falsy value. so count variable only get other three number. Each forEach it's incremented by 1, so that the last value is 3. 3 sum with 0 which is count initial value. so the result is 3.</i>
 
 </p>
 </details>

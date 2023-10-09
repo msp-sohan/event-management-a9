@@ -43,7 +43,6 @@ const Register = () => {
          if (!user) {
             profileUpdate(name, image)
             .then(()=>{
-               toast.success('Account created and profile updated successfully');
                navigate("/");
             })
             .catch(error=>{
