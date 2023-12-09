@@ -21,9 +21,9 @@ const Testimonials = ({testimonials}) => {
       768: {
          slidesPerView: 2,
       },
-      1024: {
-         slidesPerView: 3
-      }
+      // 1024: {
+      //    slidesPerView: 3
+      // }
    };
 
 
@@ -32,7 +32,7 @@ const Testimonials = ({testimonials}) => {
    }, [])
 
    return (
-      <div data-aos="fade-up" className="h-[500px] mb-80 lg:mb-60 container mx-auto rounded drop-shadow-2xl px-5">
+      <div data-aos="fade-up" className="h-[500px] mb-80 lg:mb-60 container mx-auto rounded px-60">
          <div className="text-center">
             <h2 className="text-xl text-red-500">Testimonial</h2>
             <h2 className="text-2xl lg:text-4xl font-semibold py-3 text-blue-800">
@@ -50,10 +50,10 @@ const Testimonials = ({testimonials}) => {
             }}
             breakpoints={breakpoints}
             modules={[Pagination]}
-            className="mySwiper">
+            className="mySwiper w-96 px-24">
             {
                testimonials.map(testimonial => <SwiperSlide key={testimonial.id}>
-                  <div data-aos="flip-left" className="px-10 rounded h-full hover:bg-blue-50 pt-14 ">
+                  <div data-aos="flip-left" className="px-10 shadow-2xl w-96 border rounded h-full hover:bg-blue-50 pt-14 ">
                      <div className="w-28 h-28 mx-auto">
                         <img src={testimonial.image} alt="" className="rounded-full object-cover" />
                      </div>

@@ -1,7 +1,58 @@
-### Website Name: [EventWonder](https://event-management-msp.netlify.app/)
+# EventWonder - Event Management Website
+
+Welcome to EventWonder, the ultimate event management website! Here's a detailed overview of the features and functionalities offered by the site.
+
+-  **Live Link:** [EventWonder](https://event-management-msp.netlify.app)
+
+## Website Overview
+
+## Features and Functionalities
+
+### 1. Event Packages
+
+-  Find various social event management packages, including marriage events, birthdays, anniversaries, engagements, retirements, and baby showers.
+
+### 2. Navbar Routing System
+
+-  Dynamic routing system in the navbar indicates the active page.
+-  If you navigate to a specific route (e.g., "Home"), the corresponding button will visually indicate the active status.
+
+### 3. User Information Display
+
+-  User information is displayed on the right side of the navbar if logged in.
+-  A login button is shown if the user is not logged in.
+
+### 4. Image Slider Banner
+
+-  The banner section features an image slider that automatically changes pictures.
+
+### 5. Service Cards
+
+-  Six service-related cards below the banner with images, short descriptions, and "View Details" buttons.
+-  Users, when logged in, are directed to the details page upon clicking the "View Details" button; otherwise, they are redirected to the login page.
+
+### 6. Registration Page
+
+-  Four required fields: full name, profile image, valid email, and password.
+-  Password criteria include a minimum of six characters, at least one capital letter, and one special character.
+-  Error messages appear for incomplete fields or password criteria not met.
+
+### 7. Login and Registration Forms
+
+-  Toggle button on both forms switches between registration and login pages.
+-  New users can easily navigate from the login page to registration, and vice versa.
+
+## Technology Used
+
+-  **React.js:** Front-end library for building user interfaces.
+-  **Netlify:** Platform for continuous deployment.
+-  **JavaScript:** Programming language for interactivity.
+-  **Tailwind CSS:** Utility-first CSS framework for styling.
+
+<!-- ### Website Name: [EventWonder](https://event-management-msp.netlify.app/)
 ### website Live Link: https://event-management-msp.netlify.app
 
-### Features and Functionalities of This Website: 
+### Features and Functionalities of This Website:
 
 This is an event management website where people can find different types of social event management packages, such as marriage event organizing, birthdays, anniversaries, engagements, retirements, and baby showers.
 
@@ -17,4 +68,4 @@ This is an event management website where people can find different types of soc
 
 - In the registration page, there are four fields to fill out: full name, profile image, valid email, and password. Users must complete all the fields; otherwise, they will receive an error message. Additionally, if the user doesn't meet the password criteria, such as having a minimum of six characters with at least one capital letter and one special character, they will see an error message below the password field.
 
-- On the registration and login forms, there is a toggle button. If a new user clicks it, the login page will redirect to the registration page. If a user already has an account, clicking the toggle button will redirect to the login page.
+- On the registration and login forms, there is a toggle button. If a new user clicks it, the login page will redirect to the registration page. If a user already has an account, clicking the toggle button will redirect to the login page. -->

@@ -20,10 +20,10 @@ const OurServices = () => {
                }
             </div>
          </div>
-         {/* <div className="pt-12 bg-gradient-to-r from-cyan-300 to-blue-200 bg-opacity-50">
+         <div className="py-12  bg-gradient-to-r from-cyan-300 to-blue-200 bg-opacity-50">
             <h3 className="text-center text-3xl lg:text-4xl font-semibold text-blue-800 mb-5">Our Corporate Clients</h3>
             <Partner></Partner>
-         </div> */}
+         </div>
          <div className="flex flex-col items-center justify-center text-center px-5 py-16 my-24 bg-gradient-to-r from-pink-400 to-violet-500">
             <h3 className="text-2xl lg:text-3xl font-semibold">Write your special wishes. We love to hear from all of you...</h3>
             <button className="btn rounded-3xl mt-5">get in touch</button>

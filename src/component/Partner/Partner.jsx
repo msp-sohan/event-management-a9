@@ -6,7 +6,7 @@ const Partner = () => {
    const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
       speed: 2000,
@@ -14,18 +14,18 @@ const Partner = () => {
       cssEase: "linear"
    };
    return (
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto overflow-x-hidden text-center h-40 pt-12">
          <Slider {...settings}>
-            <div className="">
-               {/* <img className="max-w-[40px]" src="" /> */}
+            <div className="flex justify-center items-center">
+               <img className="max-w-[40px]" src="https://i.ibb.co/yW1kRBd/pngwing-com.png" />
                <h3>Hello world</h3>
             </div>
-            <div className="">
-               {/* <img className="max-w-[40px]" src="" /> */}
+            <div className="flex justify-center items-center">
+               <img className="max-w-[40px]" src="https://i.ibb.co/yW1kRBd/pngwing-com.png" />
                <h3>Hello world</h3>
             </div>
-            <div className="">
-               {/* <img className="max-w-[40px]" src="" /> */}
+            <div className="flex justify-center items-center">
+               <img className="max-w-[40px]" src="https://i.ibb.co/yW1kRBd/pngwing-com.png" />
                <h3>Hello world</h3>
             </div>
          </Slider>

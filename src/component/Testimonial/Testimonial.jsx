@@ -1,5 +1,6 @@
 
-
+import { FreeMode, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 const Testimonial = ({testimonial}) => {
    const {id, image, name, designation, message} = testimonial;
    return (
