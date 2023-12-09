@@ -48,6 +48,7 @@ Welcome to EventWonder, the ultimate event management website! Here's a detailed
 -  **Netlify:** Platform for continuous deployment.
 -  **JavaScript:** Programming language for interactivity.
 -  **Tailwind CSS:** Utility-first CSS framework for styling.
+-  **Firebase:** For user Authentication.
 
 <!-- ### Website Name: [EventWonder](https://event-management-msp.netlify.app/)
 ### website Live Link: https://event-management-msp.netlify.app
